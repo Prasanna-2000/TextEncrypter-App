@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Text Encrypter</string>
+    <string name="about_app">With this text encrypter you can encrypt your text message with AES, which is one of the strongest encryption standard and MD5 hashing</string>
+    <string name="about_aes">AES
+        \n\n\nThe most popular, strong and widely adopted symmetric encryption algorithm is the Advanced Encryption Standard(AES). It is found at least six time faster than triple DES.\n
+        \nTo know how the algorithm works click <a href="https://www.tutorialspoint.com/cryptography/advanced_encryption_standard.htm">here</a>
+    </string>
+    <string name="about_md5">MD5 Hash
+        \n\n\nMD5 Message Digest Algorithm, or MD5, is a cryptographic hashing function. It is a part of the Message Digest Algorithm family which was created to verify the integrity of any message or file that is hashed.\n
+        \nTo know how the algorithm works click <a href="https://www.tutorialspoint.com/cryptography/cryptography_hash_functions.htm">here</a>
+    </string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".md5">
+
+    <EditText
+        android:id="@+id/md5_message_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:paddingTop="40dp"
+        android:hint="Enter message" />
+
+    <Button
+        android:id="@+id/hash_button"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Hash" />
+
+    <TextView
+        android:id="@+id/md5_output_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Output text :"
+        android:layout_margin="6dp" />
+
+    <TextView
+        android:id="@+id/md5_display_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E6E7E2"
+        android:layout_margin="6dp"
+        android:padding="6dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/md5_copy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:text="copy" />
+
+        <Button
+            android:id="@+id/md5_reset_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:text="reset" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
