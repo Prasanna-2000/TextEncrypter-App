@@ -8,13 +8,20 @@
 * The encrypted text then can be shared via other application by simply copying it to the clipboard.
 
 
-AES encryption is achieved in this app by using scottyab api.
-It's Simple API to perform AES encryption on Android. This is the Android counterpart to the AESCrypt library.
+## Api and class used :
+* AES encryption is achieved in this app by using scottyab api.
+It's Simple API to perform AES encryption on Android, It's a Android counterpart to the AESCrypt library.
+* And MD5 hashing is done through MD5 MessageDigest class in android.
 
-And MD5 hashing is done through MD5 MessageDigest class in android.
+## Snapshots:
 
-Snapshots:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/82818051/128333139-51ea609c-b48f-46b8-be19-7ec561d7284c.png" width="250" >
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/82818051/128333171-bd1ba3dc-aa9c-4bda-91ac-b53fb7e29e94.png" width="250" >
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/82818051/128333202-6c103efa-1665-4f9a-829c-27aabe104839.png" width="250" >
+</p>
 
-![image](https://user-images.githubusercontent.com/82818051/128333139-51ea609c-b48f-46b8-be19-7ec561d7284c.png)
-![image](https://user-images.githubusercontent.com/82818051/128333171-bd1ba3dc-aa9c-4bda-91ac-b53fb7e29e94.png)
-![image](https://user-images.githubusercontent.com/82818051/128333202-6c103efa-1665-4f9a-829c-27aabe104839.png)
