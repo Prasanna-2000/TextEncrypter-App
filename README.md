@@ -8,7 +8,7 @@
 * The encrypted text then can be shared via other application by simply copying it to the clipboard.
 
 
-## Api and class used :
+## Api and class used for encryption :
 * AES encryption is achieved in this app by using scottyab api.
 It's Simple API to perform AES encryption on Android, It's a Android counterpart to the AESCrypt library.
 * And MD5 hashing is done through MD5 MessageDigest class in android.
