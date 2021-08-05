@@ -1,12 +1,11 @@
 # TextEncrypter-App
 
-Introduction :
-Message encryptor is a simple app which converts the user’s plain text into cypher text.
-User should use a secret key to encrypt and decrypt the plain text or message they have entered.
-Encryption is based on AES(Advanced Encryption Standard), which is one of the strongest encryption standard. And also by using MD5 hashing to check the integrity of the text.
-AES is a military level encryption standard and widely used.
-The app has a simple and minimalistic UI which the user can easily interact with.
-The encrypted text then can be shared via other application by simply copying it to the clipboard.
+## Introduction :
+* Message encryptor is a simple app which converts the user’s plain text into cypher text.
+* User should use a secret key to encrypt and decrypt the plain text or message they have entered.
+* Encryption is based on AES(Advanced Encryption Standard), which is one of the strongest encryption standard. And also by using MD5 hashing to check the integrity of the text.
+* The app has a simple and minimalistic UI which the user can easily interact with.
+* The encrypted text then can be shared via other application by simply copying it to the clipboard.
 
 
 AES encryption is achieved in this app by using scottyab api.
